@@ -14,7 +14,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 app = Flask(__name__)
-CORS(app)  # Enable CORS for frontend communication
+CORS(app)  
 
 class ImprovedStringArtGenerator:
     def __init__(self, num_nails=300, max_lines=4000, canvas_size=500):
