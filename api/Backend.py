@@ -281,8 +281,3 @@ def generate_string_art_api():
 def health_check():
     """Health check endpoint"""
     return jsonify({'status': 'healthy', 'message': 'Improved String Art Generator API is running'})
-
-@app.route('/health', methods=['GET'])
-def health_check():
-    """Health check endpoint"""
-    return jsonify({'status': 'healthy', 'message': 'Improved String Art Generator API is running'})
